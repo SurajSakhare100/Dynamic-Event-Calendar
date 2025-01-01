@@ -88,7 +88,7 @@ const EventList = ({ events, editEvent, deleteEvent, searchKeyword }) => {
               </div>
               <div className="mb-2">
                 <p className="text-sm font-medium text-green-400">
-                  {`${formatTime(event.startTime)} - ${formatTime(event.endTime)}`}
+                  {`${(event.startTime)} - ${(event.endTime)}`}
                 </p>
                 {event.description && (
                   <p
