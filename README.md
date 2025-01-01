@@ -60,7 +60,7 @@ This project has been deployed to Vercel . You can access the live demo at the f
 - https://myeventgrid.vercel.app
 
   ## Demo
-  ![demo](assests/demoImage (1).png)
+  ![demo]([assests/demoImage (1).png](https://raw.githubusercontent.com/SurajSakhare100/Dynamic-Event-Calendar/refs/heads/main/assests/demoImage%20(1).png))
 
 ## License
 This project is licensed under the MIT License.
