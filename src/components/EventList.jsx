@@ -6,11 +6,21 @@ const highlightKeyword = (text, keyword) => {
   const regex = new RegExp(`(${keyword})`, "gi");
   return text.replace(regex, (match) => `<mark class="bg-yellow-300">${match}</mark>`);
 };
-
 const formatTime = (time) => {
-  const date = new Date(`1970-01-01T${time}:00Z`); 
-  return date.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit', hour12: true });
+  // Parse the given time as a Date object (assuming it's in UTC)
+  const date = new Date(`1970-01-01T${time}:00Z`);
+
+  // Format the time according to IST (Asia/Kolkata timezone)
+  const options = { 
+    hour: '2-digit', 
+    minute: '2-digit', 
+    hour12: true, 
+    timeZone: 'Asia/Kolkata'
+  };
+
+  return new Intl.DateTimeFormat('en-IN', options).format(date);
 };
+
 
 const convertToCSV = (events) => {
   const header = ["Event Name", "Start Time", "End Time", "Description", "Date"];

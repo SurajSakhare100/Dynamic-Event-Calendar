@@ -55,7 +55,7 @@ const EventForm = ({
     if (overlap) {
       toast({
         title: 'Time Overlap',
-        variant: 'destructive', 
+        variant: 'destructive',
       });
       return;
     }
@@ -81,7 +81,8 @@ const EventForm = ({
     setShowEventForm(false);
   };
   const handleTimeChange = (e, timeType) => {
-    setEvent({ ...event, [timeType]: e.target.value });
+    const timeInIST = convertToIST(e.target.value);
+    setEvent({ ...event, [timeType]: timeInIST });
   };
 
   useEffect(() => {
@@ -128,27 +129,27 @@ const EventForm = ({
           <option value="Meeting">Meeting</option>
           <option value="Other">Other</option>
         </select>
-        
-        <div className="mb-4 grid grid-cols-2 gap-2">
-        <input
-          type="time"
-          id="startTime"
-          value={event.startTime}
-          onChange={(e) => handleTimeChange(e, 'startTime')}
-          required
-          className="w-full p-3 bg-gray-700 text-white rounded-lg border border-gray-600 focus:outline-none focus:ring-2 focus:ring-blue-500"
-        />
-        <input
-          type="time"
-          id="endTime"
-          value={event.endTime}
-          onChange={(e) => handleTimeChange(e, 'endTime')}
-          required
-          className="w-full p-3 bg-gray-700 text-white rounded-lg border border-gray-600 focus:outline-none focus:ring-2 focus:ring-blue-500"
-        />
-      </div>
 
-      
+        <div className="mb-4 grid grid-cols-2 gap-4">
+          <input
+            type="time"
+            id="startTime"
+            value={event.startTime}
+            onChange={(e) => handleTimeChange(e, 'startTime')}
+            required
+            className="w-full p-3 bg-gray-700 text-white rounded-lg border border-gray-600 focus:outline-none focus:ring-2 focus:ring-blue-500"
+          />
+          <input
+            type="time"
+            id="endTime"
+            value={event.endTime}
+            onChange={(e) => handleTimeChange(e, 'endTime')}
+            required
+            className="w-full p-3 bg-gray-700 text-white rounded-lg border border-gray-600 focus:outline-none focus:ring-2 focus:ring-blue-500"
+          />
+        </div>
+
+
         <textarea
           placeholder="Description (Optional)"
           value={event.description}
