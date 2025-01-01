@@ -46,7 +46,18 @@ This is a **Dynamic Event Calendar Application** built with **React.js**. The go
    ```bash
    git clone https://github.com/yourusername/dynamic-event-calendar.git
    cd dynamic-event-calendar
-   npm install
-   npm start
    ```
+   
+   ```bash
+   npm install
+   npm run dev
+   ```
+
+- This will start the application locally at `http://localhost:5173`.
+
+## Deployment
+This project has been deployed to Vercel . You can access the live demo at the following URL:
+- `[Live Demo](https://myeventgrid.vercel.app)`
+## License
+This project is licensed under the MIT License.
 
