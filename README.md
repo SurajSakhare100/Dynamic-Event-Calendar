@@ -57,10 +57,10 @@ This is a **Dynamic Event Calendar Application** built with **React.js**. The go
 
 ## Deployment
 This project has been deployed to Vercel . You can access the live demo at the following URL:
-- ![Live Demo](https://myeventgrid.vercel.app)
+- https://myeventgrid.vercel.app
 
   ## Demo
-  ![demo](assets/demoImage (1).png)
+  ![demo](assests/demoImage (1).png)
 
 ## License
 This project is licensed under the MIT License.
