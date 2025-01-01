@@ -59,8 +59,12 @@ This is a **Dynamic Event Calendar Application** built with **React.js**. The go
 This project has been deployed to Vercel . You can access the live demo at the following URL:
 - https://myeventgrid.vercel.app
 
-  ## Demo
-  ![demo]([assests/demoImage (1).png](https://raw.githubusercontent.com/SurajSakhare100/Dynamic-Event-Calendar/refs/heads/main/assests/demoImage%20(1).png))
+
+## Demo
+  ![demo1](https://raw.githubusercontent.com/SurajSakhare100/Dynamic-Event-Calendar/refs/heads/main/assests/demoImage%20(1).png)
+  ![demo2](https://raw.githubusercontent.com/SurajSakhare100/Dynamic-Event-Calendar/refs/heads/main/assests/demoImage%20(2).png)
+  ![demo3](https://raw.githubusercontent.com/SurajSakhare100/Dynamic-Event-Calendar/refs/heads/main/assests/demoImage%20(3).png)
+  ![demo4](https://raw.githubusercontent.com/SurajSakhare100/Dynamic-Event-Calendar/refs/heads/main/assests/demoImage%20(4).png)
 
 ## License
 This project is licensed under the MIT License.
