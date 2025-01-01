@@ -2,6 +2,13 @@
 
 This is a **Dynamic Event Calendar Application** built with **React.js**. The goal of this project is to provide a clean and intuitive UI for managing events in a calendar view. The application allows users to add, edit, delete, and view events for any given day, while ensuring the calendar is responsive and user-friendly.
 
+## Demo
+  ![demo1](https://raw.githubusercontent.com/SurajSakhare100/Dynamic-Event-Calendar/refs/heads/main/assests/demoImage%20(1).png)
+  ![demo2](https://raw.githubusercontent.com/SurajSakhare100/Dynamic-Event-Calendar/refs/heads/main/assests/demoImage%20(2).png)
+  ![demo3](https://raw.githubusercontent.com/SurajSakhare100/Dynamic-Event-Calendar/refs/heads/main/assests/demoImage%20(3).png)
+  ![demo4](https://raw.githubusercontent.com/SurajSakhare100/Dynamic-Event-Calendar/refs/heads/main/assests/demoImage%20(4).png)
+
+
 ## Features
 
 ### Core Features:
@@ -33,12 +40,6 @@ This is a **Dynamic Event Calendar Application** built with **React.js**. The go
 - **Exporting Events**: Allow exporting the event list for a specific month in **JSON** or **CSV** format.
 - **Event Categorization**: Different colors for different event categories (e.g., personal, work).
 ---
-
-## Demo
-  ![demo1](https://raw.githubusercontent.com/SurajSakhare100/Dynamic-Event-Calendar/refs/heads/main/assests/demoImage%20(1).png)
-  ![demo2](https://raw.githubusercontent.com/SurajSakhare100/Dynamic-Event-Calendar/refs/heads/main/assests/demoImage%20(2).png)
-  ![demo3](https://raw.githubusercontent.com/SurajSakhare100/Dynamic-Event-Calendar/refs/heads/main/assests/demoImage%20(3).png)
-  ![demo4](https://raw.githubusercontent.com/SurajSakhare100/Dynamic-Event-Calendar/refs/heads/main/assests/demoImage%20(4).png)
 
 
 ## Project Setup
